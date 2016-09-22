@@ -1,0 +1,18 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "npm timer utility. it will show the time left for npm commands according to history data.",
+  "main": "bin/npmt.js",
+  "bin": {
+    "npmt": "bin/npmt"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ofirdagan/react-native-extended-cli.git"
+  },
+  "author": "Ofir Dagan",
+  "license": "MIT",
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org"
+  }
+}
