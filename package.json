@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ofirdagan/react-native-extended-cli.git"
+    "url": "git+https://github.com/ofirdagan/npm-timer.git"
   },
   "author": "Ofir Dagan",
   "license": "MIT",
