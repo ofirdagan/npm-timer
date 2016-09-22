@@ -1,5 +1,5 @@
 {
-  "name": "test",
+  "name": "npm-timer",
   "version": "1.0.0",
   "description": "npm timer utility. it will show the time left for npm commands according to history data.",
   "main": "bin/npmt.js",
