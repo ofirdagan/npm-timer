@@ -6,6 +6,9 @@
   "bin": {
     "npmt": "bin/npmt"
   },
+  "scripts": {
+    "patch": "npm version patch; npm publish"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ofirdagan/npm-timer.git"
