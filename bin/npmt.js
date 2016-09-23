@@ -2,6 +2,8 @@
 const spawn = require('child_process').spawn;
 const fileUtils = require('./file-utils');
 const utils = require('./utils');
+require('./update-notifier');
+
 let countdown;
 process.argv.splice(0, 2);
 

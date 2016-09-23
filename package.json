@@ -1,6 +1,6 @@
 {
   "name": "npm-timer",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "npm timer utility. it will show the time left for npm commands according to history data.",
   "main": "bin/npmt.js",
   "bin": {
@@ -17,5 +17,8 @@
   "license": "MIT",
   "publishConfig": {
     "registry": "https://registry.npmjs.org"
+  },
+  "dependencies": {
+    "update-notifier": "^1.0.2"
   }
 }
