@@ -6,7 +6,7 @@ countdown()
   while [ $secs -gt -1 ]
   do
     sleep 1 &
-    printf "\r%02d:%02d:%02d" $((secs/3600)) $(( (secs/60)%60)) $((secs%60))
+    printf "\e[0;32m\r%02d:%02d:%02d\e[m" $((secs/3600)) $(( (secs/60)%60)) $((secs%60))
     secs=$(( $secs - 1 ))
     wait
   done
